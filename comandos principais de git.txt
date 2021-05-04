@@ -23,14 +23,14 @@ git revert 'número do hash' -> desfaz commits
 
 LIDANDO COM BRANCHES
 
+git branch -> ver as branches
+
 git branch <nomedabranch> -> criar branch nova
 git checkout <nome-da-branch> -> mudar para branch
 
 git checkout -b <nome-da-branch> -> criar branch nova e já mudar pra ela
 
 git push -u <remote> <nome-da-branch> -> enviar branch criada para o repositório remoto
-
-git branch -> ver as branches
 
 git branch -d <nome-da-branch> -> deletar uma branch
 
