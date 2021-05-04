@@ -1,0 +1,11 @@
+cd - change diretory
+dir - diretory
+mkdir - make diretory
+del / rmdir - delete diretory / remove diretory
+cls - clear space
+
+echo hello - printa hello
+echo hello > hello.txt -> cria o arquivo hello.txt e printa o hello
+echo > README.md
+
+TAB para autocompletar

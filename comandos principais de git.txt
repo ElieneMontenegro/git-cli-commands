@@ -1,0 +1,39 @@
+git config --global user.email "lila.amaral@hotmail.com"
+git config --global user.name Lila
+
+git config --global --unset user.email ou user.name
+
+git init
+
+git remote add origin "link do repo"
+git remote -v
+
+git clone <https://nome-do-link>
+
+git status
+git log
+
+git add . ou git add <filename>
+git commit -m "mensagem que descreve o commit"
+git push origin <branch>
+
+git pull <remote>
+
+git revert 'número do hash' -> desfaz commits
+
+LIDANDO COM BRANCHES
+
+git branch <nomedabranch> -> criar branch nova
+git checkout <nome-da-branch> -> mudar para branch
+
+git checkout -b <nome-da-branch> -> criar branch nova e já mudar pra ela
+
+git push -u <remote> <nome-da-branch> -> enviar branch criada para o repositório remoto
+
+git branch -> ver as branches
+
+git branch -d <nome-da-branch> -> deletar uma branch
+
+git merge <nome-da-branch>
+
+obs: use typora para markdown
